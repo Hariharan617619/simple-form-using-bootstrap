@@ -1,0 +1,47 @@
+div {
+    background-color: rgb(228, 232, 244);
+}
+label{
+    padding: 10px;
+}
+button{
+     background-color: rgb(25, 24, 24);
+     color: aliceblue;
+     text-align: center;
+     font-size: 17px;
+     user-select: none;
+     border-radius: 10px;
+}
+.container{
+    color: rgb(46, 44, 49);
+}
+.form-group{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    top: calc(62%);
+    left: 1.2%;
+}
+.form-group label .form-control {
+    left: 45%;
+    padding-left: 20%;
+}
+#Telephone {
+    padding-left: 27px;
+}
+#name {
+    padding-left: 27px;
+}
+#email {
+    padding-left: 27px; 
+}
+#organisation {
+    padding-left: 24px;
+}
+h1,p{
+    padding: 30px;
+}
+body {
+    margin-top: 70px;
+}

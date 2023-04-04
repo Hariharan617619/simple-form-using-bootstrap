@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form using Bootstrap</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/ff9e51c84e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  
+  
+</head>
+<body>
+  <div class="container-md">
+    <h1>Send us a message</h1>
+    <p>Send us a message and we'll respond within 24 hours.</p>
+  <div class="container mt-5">
+      <div class="col-sm-12">
+        <div class="card">
+          <div class="card-body">
+            <form action="/" method="POST">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <span class="icon"><i class="fa-solid fa-user" aria-hidden="true"></i></span>
+                    <label for="name"><b>Full Name</b></label>
+                    <input type="text" class="form-control" placeholder="Type full name here" id="name" />
+                  </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <span class="icon"><i class="fa-solid fa-envelope" aria-hidden="true"></i></span>
+                      <label for="email"><b>Email</b></label>
+                      <input type="text" class="form-control" placeholder="Type email here" id="email" />
+                    </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div class="form-group">
+                          <span class="icon"><i class="fa-solid fa-phone" aria-hidden="true"></i></span>
+                          <label for="Telephone"><b>Telephone</b></label>
+                          <input type="number" name="Telephone" id="Telephone" placeholder="Phone number" class="form-control">
+                        </div>
+                        </div>
+                      <div class="col-sm-6">
+                        <div class="form-group">
+                          <span class="icon"><i class="fa-solid fa-building"aria-hidden="true"></i></span>
+                          <label for="organisation"><b>Organisation</b></label>
+                          <input type="text" name="organisation" id="organisation" placeholder="Organisation name" class="form-control">
+                        </div>
+                        </div>
+                        </div>
+                      <div class="row">
+                        <div class="form-group"><br>
+                            <label for="msg"><b>Comments</b></label>
+                            <input type="text" name="msg" id="msg"
+                            placeholder="Type your message here" style="height: 100px" 
+                            class="form-control">
+                        </div>
+                      </div>
+                    </div>
+              </form>
+          </div>    
+      </div>
+    </div>
+    <center><button>SUBMIT</button></center>
+  </div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
+</body>
+</html>
